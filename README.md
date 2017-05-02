@@ -53,3 +53,7 @@ EasyBCD引导Ubuntu
 
 完成条目添加后，重启电脑，会发现Windows10和Ubuntu的双系统已经完成安装，祝玩得开心！
 用Windows引导Ubuntu最大的好处就是，当不再需要Ubuntu的时候，直接在Windows磁盘管理中将其所在所有分区删除，然后将EasyBCD中对应条目删除即可。关于Ubuntu引导Windows的方法，如果大家感兴趣，欢迎尝试和分享。
+
+
+
+只需要在Unbutu分区的时候，将启动引导器设置为esp分区就好，就是存放windows启动项的分区，很好辨认，大小为100MB左右，分区格式为fast16的就是
